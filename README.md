@@ -42,7 +42,7 @@ Follow these steps to run the project in Google Colab:
     ```
     
 4. **Upload the Input Video**:
-   - Use the files.upload() method in Colab to upload your video file (e.g., example_video.mp4).
+   - Use the files.upload() method in Colab to upload your video file.
   
 5. **Run the Notebook**:
    - Execute all the cells in the notebook to:
