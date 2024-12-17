@@ -86,6 +86,7 @@ Knee Bend Angle Visualization
 ---
 
 ## **How it Works**
+
 - **Pose Detection**:
    - Mediapipe identifies 33 pose landmarks in each video frame.
 - **Angle Calculation**:
