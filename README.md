@@ -58,13 +58,10 @@ Follow these steps to run the project in Google Colab:
 
 - **Pose Detection**:
    - Detects key body points (shoulders, hips, knees, ankles) using Mediapipe's pre-trained Pose model.
-
 - **Knee Angle Calculation**:
    - Computes the knee bend angle in real time using the cosine rule for three points: hip → knee → ankle.
-
 - **Video Annotation**:
    - Displays pose landmarks and knee angle on each video frame.
-
 - **Graph Visualization**:
    - Plots the knee bend angle over time, showing the range of motion throughout the squats.
 
@@ -81,7 +78,12 @@ Follow these steps to run the project in Google Colab:
 ---
 
 ## **Example Output**
-Knee Bend Angle Visualization
+
+### Processed Video Frame
+![Processed Video Frame](assets/knee_angle_graph.png)
+
+### Knee Bend Angle Plot
+![Knee Bend Angle Plot](assets/knee_angle_graph.png)
 
 ---
 
