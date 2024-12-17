@@ -66,7 +66,7 @@ Follow these steps to run the project in Google Colab:
    - Displays pose landmarks and knee angle on each video frame.
 
 - **Graph Visualization**:
-   -Plots the knee bend angle over time, showing the range of motion throughout the squats.
+   - Plots the knee bend angle over time, showing the range of motion throughout the squats.
 
 ---
   
