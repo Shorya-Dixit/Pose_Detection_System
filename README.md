@@ -27,7 +27,7 @@ Follow these steps to run the project in Google Colab:
 
 1. **Clone the Repository**:
    ```python
-   git clone https://github.com/your-username/pose-detection-challenge.git
+   git clone https://github.com/Shorya-Dixit/Pose_Detection_System.git
    cd pose-detection
    ```
 
