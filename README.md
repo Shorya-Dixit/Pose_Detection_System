@@ -1,5 +1,6 @@
 # **Pose Detection System**
 
+## **Project Overview**
 This project implements a basic pose detection system that detects key pose points (e.g., shoulders, hips, knees) from a video of a person performing squats. It calculates the knee bend angle in each frame and outputs the angle sequence along with a visualized graph.
 
 ---
