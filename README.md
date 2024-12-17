@@ -1,4 +1,4 @@
-# **Pose_Detection_System**
+# **Pose Detection System**
 
 This project implements a **basic pose detection system** that detects key pose points (e.g., shoulders, hips, knees) from a video of a person performing squats. It calculates the **knee bend angle** in each frame and outputs the angle sequence along with a visualized graph.
 
@@ -56,25 +56,26 @@ Follow these steps to run the project in Google Colab:
 
 ## **Features**
 
-- Pose Detection:
+- **Pose Detection**:
    - Detects key body points (shoulders, hips, knees, ankles) using Mediapipe's pre-trained Pose model.
 
-- Knee Angle Calculation:
+- **Knee Angle Calculation**:
    - Computes the knee bend angle in real time using the cosine rule for three points: hip → knee → ankle.
 
-- Video Annotation:
+- **Video Annotation**:
    - Displays pose landmarks and knee angle on each video frame.
 
-- Graph Visualization:
+- **Graph Visualization**:
    -Plots the knee bend angle over time, showing the range of motion throughout the squats.
 
 ---
   
 ## **Outputs**
-- Processed Video:
+
+- **Processed Video**:
    - Annotated frames with detected landmarks and real-time knee angle displayed.
 
-- Knee Bend Angle Plot:
+- **Knee Bend Angle Plot**:
    - A line graph showing the variation of knee angles over video frames.
 
 ---
@@ -85,11 +86,11 @@ Knee Bend Angle Visualization
 ---
 
 ## **How it Works**
-- Pose Detection:
+- **Pose Detection**:
    - Mediapipe identifies 33 pose landmarks in each video frame.
-- Angle Calculation:
+- **Angle Calculation**:
    - Uses trigonometry to calculate the angle formed at the knee joint (hip-knee-ankle).
-- Visualization:
+- **Visualization**:
    - Annotates frames and plots angles for easy analysis of knee motion.
 
 ---
